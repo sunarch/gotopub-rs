@@ -1,6 +1,6 @@
 [package]
 name = "gotopub"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["András Németh <sunarch@protonmail.com>"]
 edition = "2021"
 description = "GoToSocial and general Fediverse client"
