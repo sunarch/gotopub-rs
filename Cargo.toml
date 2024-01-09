@@ -1,0 +1,35 @@
+[package]
+name = "gotopub"
+version = "0.0.1"
+authors = ["András Németh <sunarch@protonmail.com>"]
+edition = "2021"
+description = "GoToSocial and general Fediverse client"
+documentation = "https://docs.rs/gotopub"
+readme = "README.md"
+homepage = "https://codeberg.org/sunarch/gotopub"
+repository = "https://codeberg.org/sunarch/gotopub"
+license = "MPL-2.0"
+keywords = [
+    "GoToPub",
+    "Fediverse",
+    "ActivityPub",
+    "GoToSocial",
+    "Mastodon"
+]
+# https://crates.io/category_slugs
+categories = [
+    "api-bindings",
+    "command-line-utilities",
+    "database",
+    "web-programming::http-client"
+]
+exclude = [".idea/"]
+default-run = "gotopub"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "gotopub"
+path = "src/lib.rs"
+
+[dependencies]
