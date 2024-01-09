@@ -8,7 +8,7 @@ documentation = "https://docs.rs/gotopub"
 readme = "README.md"
 homepage = "https://codeberg.org/sunarch/gotopub"
 repository = "https://codeberg.org/sunarch/gotopub"
-license = "MPL-2.0"
+license = "AGPL-3.0-or-later"
 keywords = [
     "GoToPub",
     "Fediverse",
